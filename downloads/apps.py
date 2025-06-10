@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AvicAppConfig:
+class DownloadsConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "avic"
+    name = "downloads"
